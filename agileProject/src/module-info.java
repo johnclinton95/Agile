@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author diallo
- *
- */
-module agileProject {
-}
