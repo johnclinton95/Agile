@@ -4,12 +4,12 @@ public class Item {
 
 	
 	private String nom;
-	private int unite;
+	private int quantite;
 	private float prix;
 
 	public Item(String nom, int unite, float prix){
 	    this.nom= nom;
-	    this.unite = unite;
+	    this.quantite = unite;
 	    this.prix = prix;
 	}
 
@@ -18,8 +18,9 @@ public class Item {
 	}
 
 	public int getUnite(){
-	    return this.unite;
+	    return this.quantite;
 	}
+	
 
 	public float getPrix(){
 	    return this.prix;
